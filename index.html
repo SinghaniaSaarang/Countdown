@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown</title>
+    <link rel="stylesheet" href="css/custom.css">
+
+
+</head>
+<body>
+    <div class="main">
+        <div class="overlay">
+            <div class="title">Event date</div>
+            <div class="col">
+                <div>
+                    <input type="text" id="de" >
+                    <br>
+                    <label for="de">Date</label>
+                </div>
+                <div>
+                    <input type="text" id="me" >
+                    <br>
+                    <label for="me">month</label>
+                </div>
+                <div>
+                    <input type="text" id="ye" >
+                    <br>
+                    <label for="ye">Year</label>
+                </div>
+            </div>
+            <button id="sub" onclick="datefun()">Submit</button>
+            <div class="title"><b>Coming in</b></div>
+            <div class="col">
+                <div>
+                    <input type="text" id="d" readonly value="0">
+                    <br>
+                    <label for="d">Days</label>
+                </div>
+                <div>
+                    <input type="text" id="h" readonly value="0">
+                    <br>
+                    <label for="h">Hours</label>
+                </div>
+                <div>
+                    <input type="text" id="m" readonly value="0">
+                    <br>
+                    <label for="m">Minutes</label>
+                </div>
+                <div>
+                    <input type="text" id="s" readonly value="0">
+                    <br>
+                    <label for="s">Seconds</label>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="js/app.js">
+
+    </script>
+    
+</body>
+</html>
